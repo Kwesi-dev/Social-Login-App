@@ -1,0 +1,25 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pstImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.postDesc{
+    padding: 0 100px;
+    font-weight: 300;
+    font-size: 24px;
+    color: grey;
+    margin-top: 50px;
+}
+.lngDesc{
+    padding: 100px;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 24px;
+}

@@ -1,0 +1,98 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wrapper{
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: -1px -1px 8px 4px rgba(178,190,181,0.91); 
+    box-shadow: -1px -1px 8px 4px rgba(178,190,181,0.91);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.left, .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+   position: absolute; 
+   top: 120px;
+   color: lightgray;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.or{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color: lightgray;
+    background-color: white;
+    font-weight: bold;
+}
+.line{
+    width: 0.5px;
+    height: 70%;
+    background-color: lightgray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+}
+.loginBtn{
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.google{
+    background-color: #df4930;
+}
+.facebook{
+    background-color: #507cc0;
+}
+.github{
+    background-color: black;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+input{
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.loginButton{
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: rgba(102, 16, 83 ,0.698);
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
